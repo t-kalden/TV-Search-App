@@ -13,7 +13,7 @@ form.addEventListener('submit', async function (e) {
 
     img.src = resData.show.image.medium;
     name.innerHTML = resData.show.name;
-    genre.innerHTML = resData.show.seasons;
+    genre.innerHTML = resData.show.genres[0];
 
     showBox.append(img);
     showBox.append(name);
